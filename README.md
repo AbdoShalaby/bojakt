@@ -1,6 +1,15 @@
 ## Stockholm Hosuing Demand Analysis
 
-This analysis aims to show the average days required to sell a property in Stockholm change during the last 18 months.
+This analysis aims to show the average days required to sell a property in Stockholm are changing during the last 18 months. 
+
+### DataSet schema:
+id: property id
+publsih_date: The date when the property has been published for sale
+Sold_Date: The date when the property is sold
+days_to_sell : The different between publsih date and sold date
+AskingPrice: The asking price of the property
+Munacipality_name: The Munacipality of the property
+property_type: The type of the property (i.e. villa, Bostadsratt, Radhus)
 
 ### Example of the data:
    id publish_date   sold_date  days_to_sell  AskingPrice munaciplity_name  \
